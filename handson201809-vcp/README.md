@@ -5,7 +5,6 @@
 https://github.com/nii-gakunin-cloud/handson/tree/master/handson201809-vcp
 
 注意；104-VCディスクのNotebookはGitHubサイトから開けない可能性があります。
-
 その場合は、[nbviewerサイト](http://nbviewer.jupyter.org/github/nii-gakunin-cloud/handson/tree/master/handson201809-vcp/)からご覧ください。
 
 ハンズオンコンテンツに関連するライブラリ等は今の所未公開ですので、
