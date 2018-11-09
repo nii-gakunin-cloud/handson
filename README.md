@@ -3,7 +3,7 @@ Hands-on packages for the NII Gakunin Cloud On-demand Configuration Service
 
 ## 2018年度ハンズオン
 - 2018年9月25日(火) 「学認クラウドオンデマンド構築サービスハンズオンセミナー」
-  - オンデマンド構築サービスの基礎と活用方法」 [Link](https://github.com/nii-gakunin-cloud/handson/tree/master/handson201809-vcp)
+  - オンデマンド構築サービスの基礎と活用方法 [Link](https://github.com/nii-gakunin-cloud/handson/tree/master/handson201809-vcp)
 - 2018年6月21日(木) NIIオープンフォーラム2018 「オンデマンドクラウド構築サービスハンズオン」
   - 基礎編 [Link](https://github.com/nii-gakunin-cloud/handson/tree/master/of2018-vcp-101)
   - Moodle編 [Link](https://github.com/nii-gakunin-cloud/handson/tree/master/of2018-vcp-moodle)
