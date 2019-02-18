@@ -7,7 +7,7 @@ Hands-on packages for the NII Gakunin Cloud On-demand Configuration Service
 - 本サービス関連文献一覧 [Link](https://nii-gakunin-cloud.github.io/)
 
 ## 2018年度ハンズオン
-- 2019年2月18日(月) 「第１回 学認クラウドオンデマンド構築サービスハンズオンセミナー」
+- 2019年2月18日(月) 「第2回 学認クラウドオンデマンド構築サービスハンズオンセミナー」
   - 「学認クラウドオンデマンド構築サービスの基礎と活用方法」(基礎編) 説明スライド [PDF](https://www.dropbox.com/s/u4nygttzyciqe66/201902_vcp-handson.pdf?dl=0)
 - 2018年12月19日(水) 「第１回 学認クラウドオンデマンド構築サービスハンズオンセミナー」
   - Jupyter Notebook 入門 [Movie](https://www.dropbox.com/s/uwxm7yzr0nxcbod/20181219_jupyter_notebook_small.mp4?dl=0)
