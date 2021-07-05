@@ -1,0 +1,20 @@
+blockdiag {
+    node_width = 300;
+    node_height = 200;
+
+    group {
+        label = "基本操作";
+        shape = line;
+        style = dashed;
+        "101" -> "102";
+        "101" -> "103" -> "104";
+    }
+
+    group {
+        label = "アプリケーションコンテナの実行";
+        shape = line;
+        style = dashed;
+        orientation = portrait;
+        "201";
+    }
+}
