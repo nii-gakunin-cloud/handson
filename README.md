@@ -6,6 +6,10 @@ Hands-on packages for the NII Gakunin Cloud On-demand Configuration Service
 - 「学認クラウドオンデマンド構築サービス」 ホームページ [Link](https://cloud.gakunin.jp/ocs/)
 - 本サービス関連文献一覧 [Link](https://nii-gakunin-cloud.github.io/)
 
+## 2021年度ハンズオン
+- 2021年7月8日(木) NIIオープンフォーラム2021 「学認クラウドオンデマンド構築サービス・ハンズオン (基礎編)」
+  - 学認クラウドオンデマンドサービスの基本操作、GPU利用アプリ環境の構築、スポットインスタンスを使用する環境構築などの実習 [Link](https://github.com/nii-gakunin-cloud/handson/tree/master/handson202107-vcp)
+
 ## 2018年度ハンズオン
 - 2019年2月18日(月) 「第2回 学認クラウドオンデマンド構築サービスハンズオンセミナー」
   - 学認クラウドオンデマンド構築サービスの基礎と活用方法(基礎編) [Link](https://github.com/nii-gakunin-cloud/handson/tree/master/handson201902-vcp), 説明スライド [PDF](https://www.dropbox.com/s/u4nygttzyciqe66/201902_vcp-handson.pdf?dl=0)
