@@ -9,7 +9,7 @@ Hands-on packages for the NII Gakunin Cloud On-demand Configuration Service
 ## 2021年度ハンズオン
 - 2021年9月3日(金) 学認クラウドオンデマンド構築サービスハンズオンセミナー@北海道大学CloudWeek2021 [概要](https://www.dropbox.com/s/5oelceqdvzxu2am/210903.OCS_overview.pdf?dl=0)
   - 学認クラウドオンデマンド構築サービスハンズオン（基礎編） [資料](https://.../202109_vcp-handson.pdf?dl=0), [教材](https://github.com/nii-gakunin-cloud/handson/tree/master/Basic-Tutorials/handson202107-vcp)
-  - 公開テンプレートによる演習 [資料](https://www.dropbox.com/s/ifu6zt16sqxenem/210903.OpenHPC.pdf?dl=0), [教材](https://github.com/nii-gakunin-cloud/handson/tree/master/Application-Tutorials/handson202107-vcp)
+  - 公開テンプレートによる演習 [資料](https://www.dropbox.com/s/ifu6zt16sqxenem/210903.OpenHPC.pdf?dl=0), [教材](https://github.com/nii-gakunin-cloud/handson/tree/master/Application-Tutorials/handson202109-openhpc)
     - OpenHPC-v2 テンプレートによる機械学習環境を利用した手書き数字認識
 - 2021年7月8日(木) NIIオープンフォーラム2021 「学認クラウドオンデマンド構築サービス・ハンズオン (基礎編)」[概要](https://www.dropbox.com/s/rl1xum1uqdxut7i/210708.OCS_overview.pdf?dl=0)
   - Jupyter Notebook 入門（NII 拡張機能を中心に）（教材は「学認クラウドオンデマンド構築サービスハンズオン（基礎編）」に内包）
