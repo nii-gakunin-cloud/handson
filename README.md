@@ -7,6 +7,9 @@ Hands-on packages for the NII Gakunin Cloud On-demand Configuration Service
 - 本サービス関連文献一覧 [Link](https://nii-gakunin-cloud.github.io/)
 
 ## 2021年度ハンズオン
+- 2021年12月20日(月) 学認クラウドオンデマンド構築サービスハンズオンセミナー [概要](./pdf/211220.HansON-Overview.r3.pdf)
+  - 学認クラウドオンデマンド構築サービスハンズオン（基礎編） [資料](https://www.dropbox.com/s/ejhd6cw8excwtlq/202109_vcp-handson.pdf?dl=0), [教材](./Basic-Tutorials/handson202107-vcp)
+  - オンデマンド構築機能によるMoodleの構築 [資料](./pdf/211220.ocs-hands-on.moodle.pdf), （教材準備中）
 - 2021年9月3日(金) 学認クラウドオンデマンド構築サービスハンズオンセミナー@北海道大学CloudWeek2021 [概要](https://www.dropbox.com/s/5oelceqdvzxu2am/210903.OCS_overview.pdf?dl=0)
   - 学認クラウドオンデマンド構築サービスハンズオン（基礎編） [資料](https://www.dropbox.com/s/ejhd6cw8excwtlq/202109_vcp-handson.pdf?dl=0), [教材](./Basic-Tutorials/handson202107-vcp)
   - 公開テンプレートによる演習 [資料](https://www.dropbox.com/s/ifu6zt16sqxenem/210903.OpenHPC.pdf?dl=0), [教材](./Application-Tutorials/handson202109-openhpc)
