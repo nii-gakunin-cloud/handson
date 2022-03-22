@@ -18,6 +18,11 @@ Hands-on packages for the NII Gakunin Cloud On-demand Configuration Service
   - Jupyter Notebook 入門（NII 拡張機能を中心に）（教材は「学認クラウドオンデマンド構築サービスハンズオン（基礎編）」に内包）, [ビデオ](https://www.youtube.com/watch?v=MLPO4DImSxk)
   - 学認クラウドオンデマンド構築サービスハンズオン（基礎編） [資料](https://www.dropbox.com/s/3tnkst9tdhlqqul/202107_vcp-handson.pdf?dl=0), [教材](./Basic-Tutorials/handson202107-vcp), [ビデオ](https://www.youtube.com/watch?v=lJ5oiM5-KWk)
     - 学認クラウドオンデマンドサービスの基本操作、GPU利用アプリ環境の構築、スポットインスタンスを使用する環境構築などの実習
+- 2022年3月25日(金) 学認クラウドオンデマンド構築サービスハンズオンセミナー　[資料]
+  - 学認クラウドオンデマンド構築サービスハンズオン（基礎編）[資料]、[教材]
+  - OpenHPCv2上での機械学習アプリケーション環境の構築[資料]、[教材]
+
+
 
 ## 2020年度ハンズオン
 - 2021年3月5日(金) 学認クラウドオンデマンド構築サービスリモートハンズオン＠広島大学「大学等におけるクラウドサービス利用シンポジウム 2021」[概要](https://www.dropbox.com/s/xlqz0jagrz51k04/210305.OCS_overview.pdf?dl=0)
