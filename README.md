@@ -10,7 +10,7 @@ Hands-on packages for the NII Gakunin Cloud On-demand Configuration Service
 - 2022年6月9日(木) 学認クラウドオンデマンド構築サービスハンズオンセミナー
   - 学認クラウドオンデマンド構築サービスの概要 [資料](./pdf/Abst-A-2022.06.09-5.pdf) 
   - オンデマンド構築サービスの基礎と活用方法（講演と演習） [資料](./pdf/Abst-B-2022.06.09-5.pdf) （p.8まで） [教材](./Basic-Tutorials/handson202206-vcp)
-  - オンデマンド構築サービスを使った演習
+  - オンデマンド構築サービスを使った演習 [教材](./Basic-Tutorials/handson202206-vcp)
     - 複数人で利用可能な軽量Python実習環境(JupyterHub)の配備とカスタマイズ方法の演習
   - 公開テンプレート、お試し環境等の紹介 [資料](./pdf/Abst-B-2022.06.09-5.pdf) （p.9より）
 
