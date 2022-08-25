@@ -40,8 +40,7 @@
   * パック数: `3`
   * 仮想ディスク(GB): `64`
 - 「公開鍵」は、ターミナルでSSHを使用してLinux（ハンズオンではmdxの仮想マシン）にログイン可能なPC環境において、作成済みのSSH鍵ペアがあればその公開鍵の内容を貼り付けます。
-  * SSH鍵ペアが無い場合は、`ssh-keygen` コマンド等で作成してください。  
-    e.g. `ssh-keygen -t ed25519`
+  * SSH鍵ペアが無い場合は、`ssh-keygen` コマンド等で作成してください。 e.g. `ssh-keygen -t ed25519`
 
 <img src="./images/04-mdx-config.png" height="600px">
 
@@ -146,7 +145,7 @@ ocs-vcp-portable_occtr_1   /usr/bin/supervisord -n   Up
 
 #### Jupyter Notebook へのアクセス
 
-- ブラウザから **`http://DNAT設定のグローバルIP/`** にアクセスすると、VCPポータブル版と同一ホスト上で起動しているJupyter Notebook環境にログインできます。
+- ブラウザから **`http://DNAT設定のグローバルIP/`** にアクセスすると、VCPポータブル版と同じサーバで起動したJupyter Notebookにログインできます。
 
 #### VCPポータブル版が正常に起動しなかった場合に再構築するには
 
