@@ -143,16 +143,16 @@ ocs-vcp-portable_occtr_1   /usr/bin/supervisord -n   Up
 - `docker ps` コマンドを実行すると、上記に加えてJupyterNotebookコンテナを含む合計3つのコンテナが起動していることが確認できます。
   * VCPポータブル版、または JupyterNotebook が正常に起動していない場合は、 `init_mdx_pvcc.sh` を再実行してください。
 
-#### Jupyter Notebook へのアクセス
-
-- ブラウザから **`http://DNAT設定のグローバルIP/`** にアクセスすると、VCPポータブル版と同じサーバで起動したJupyter Notebookにログインできます。
-
 #### VCPポータブル版が正常に起動しなかった場合に再構築するには
 
 - VCPポータブル版をゼロから再構築したい場合は、`init_mdx_pvcc.sh` を再実行する前に以下の手順が必要です。
   * `ocs-vcp-portable/volume/` ディレクトリを削除 `rm -rf` する（または rename `mv` しておく）
   * Jupyter Notebookコンテナ (cloudop-notebook-22.XX.X-jupyter-8888) を停止 `docker stop` 後、
     削除 `docker rm` する
+
+### Jupyter Notebook へのアクセス
+
+- ブラウザから **`http://DNAT設定のグローバルIP/`** にアクセスすると、VCPポータブル版と同じサーバで起動したJupyter Notebookにログインできます。
 
 ## 3. VCコントローラの管理
 
