@@ -36,6 +36,12 @@
 ![](./images/03-mdx-template.png)
 
 - デプロイする仮想マシンについて、ハードウェアのカスタマイズを行います。
+  * パックタイプ: `CPUパック`
+  * パック数: `3`
+  * 仮想ディスク(GB): `64`
+- 「公開鍵」は、ターミナルでSSHを使用してLinux（ハンズオンではmdxの仮想マシン）にログイン可能なPC環境において、作成済みのSSH鍵ペアがあればその公開鍵の内容を貼り付けます。
+  * SSH鍵ペアが無い場合は、`ssh-keygen` コマンド等で作成してください。  
+    e.g. `ssh-keygen -t ed25519`
 
 <img src="./images/04-mdx-config.png" height="600px">
 
@@ -68,9 +74,11 @@
 
 <img src="./images/08-mdx-dnat.png" height="380px">
 
+- 「転送先プライベートIPアドレス」として、mdx仮想マシンの **サービスネットワーク1** で付与されたプライベート **IPv4アドレス** を入力します。
+
 <img src="./images/09-mdx-dnat2.png" height="350px">
 
-- 自身のプロジェクトに割り当てられたIPアドレス範囲を確認します。
+- 次の「ACL設定」で必要となる情報を取得するために、自身のプロジェクトに割り当てられた **IPアドレス範囲** を確認します。
 
 <img src="./images/11-mdx-segment.png" height="380px">
 
@@ -118,7 +126,7 @@ cd ocs-vcp-portable/mdx/
   * Portable VCコントローラの初期設定
   * Jupyter Notebookサーバのコンテナイメージ取得、起動
 
-- 正常終了すると、VCP REST API アクセストークンが `~/ocs-vcp-portable/tokenrc` ファイルに出力されます。
+- 正常終了すると、VCP REST API アクセストークンが `ocs-vcp-portable/tokenrc` ファイルに出力されます。
 
 ### 起動状態の確認
 
@@ -135,8 +143,15 @@ ocs-vcp-portable_occtr_1   /usr/bin/supervisord -n   Up
 
 - `docker ps` コマンドを実行すると、上記に加えてJupyterNotebookコンテナを含む合計3つのコンテナが起動していることが確認できます。
   * VCPポータブル版、または JupyterNotebook が正常に起動していない場合は、 `init_mdx_pvcc.sh` を再実行してください。
+
+#### Jupyter Notebook へのアクセス
+
+- ブラウザから **`http://DNAT設定のグローバルIP/`** にアクセスすると、VCPポータブル版と同一ホスト上で起動しているJupyter Notebook環境にログインできます。
+
+#### VCPポータブル版が正常に起動しなかった場合に再構築するには
+
 - VCPポータブル版をゼロから再構築したい場合は、`init_mdx_pvcc.sh` を再実行する前に以下の手順が必要です。
-  * `~/ocs-vcp-portable/volume` ディレクトリを削除 `rm -rf` する（または rename `mv` しておく）
+  * `ocs-vcp-portable/volume/` ディレクトリを削除 `rm -rf` する（または rename `mv` しておく）
   * Jupyter Notebookコンテナ (cloudop-notebook-22.XX.X-jupyter-8888) を停止 `docker stop` 後、
     削除 `docker rm` する
 
