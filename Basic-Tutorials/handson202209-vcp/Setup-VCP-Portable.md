@@ -152,7 +152,7 @@ ocs-vcp-portable_occtr_1   /usr/bin/supervisord -n   Up
 
 ### Jupyter Notebook へのアクセス
 
-- ブラウザから **`http://DNAT設定のグローバルIP/`** にアクセスすると、VCPポータブル版と同じサーバで起動したJupyter Notebookにログインできます。
+- ブラウザから **`http://DNAT設定のグローバルIP/jupyter/`** にアクセスすると、VCPポータブル版と同じサーバで起動したJupyter Notebookにログインできます。
 
 ## 3. VCコントローラの管理
 
