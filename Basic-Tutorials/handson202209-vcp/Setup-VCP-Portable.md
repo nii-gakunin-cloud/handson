@@ -143,7 +143,7 @@ ocs-vcp-portable_occtr_1   /usr/bin/supervisord -n   Up
 
 #### （参考）VCPポータブル版が正常に起動しなかった場合に再構築するには
 
-- VCPポータブル版をゼロから再構築したい場合は、`init_mdx_pvcc.sh` を再実行する前に `cleanup-handson2209.sh` スクリプトを実行してください。
+- VCPポータブル版をゼロから再構築したい場合は、`init_mdx_pvcc.sh` を再実行する前に以下のスクリプトを実行してください。
 
 ```
 ~/ocs-vcp-portable/cleanup-handson2209.sh
