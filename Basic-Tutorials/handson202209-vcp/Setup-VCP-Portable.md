@@ -162,7 +162,20 @@ mdx上に構築したVCPポータブル版の管理手順を確認します。
 - 稼働中のVCコントローラを停止する必要がある場合、 `docker-compose down` コマンドを実行します。
 
 ```
+sudo docker-compose down
+```
+
+```
+# 実行例
 mdxuser@ubuntu-2004:~/ocs-vcp-portable$ sudo docker-compose down
+Stopping ocs-vcp-portable_nginx_1 ... done
+Stopping ocs-vcp-portable_occtr_1 ... done
+Removing ocs-vcp-portable_nginx_1 ... done
+Removing ocs-vcp-portable_occtr_1 ... done
+
+mdxuser@ubuntu-2004:~/ocs-vcp-portable$ sudo docker-compose ps
+Name   Command   State   Ports
+------------------------------
 ```
 
 ### VC コントローラの起動方法
@@ -170,7 +183,20 @@ mdxuser@ubuntu-2004:~/ocs-vcp-portable$ sudo docker-compose down
 - 停止中のVCコントローラを起動するには、 `docker-compose up -d` コマンドを実行します。
 
 ```
+sudo docker-compose up -d
+```
+
+```
+# 実行例
 mdxuser@ubuntu-2004:~/ocs-vcp-portable$ sudo docker-compose up -d
+Creating ocs-vcp-portable_occtr_1 ... done
+Creating ocs-vcp-portable_nginx_1 ... done
+
+mdxuser@ubuntu-2004:~/ocs-vcp-portable$ sudo docker-compose ps
+          Name                     Command           State   Ports
+------------------------------------------------------------------
+ocs-vcp-portable_nginx_1   nginx -g daemon off;      Up           
+ocs-vcp-portable_occtr_1   /usr/bin/supervisord -n   Up           
 ```
 
 ### VC コントローラを構成する各種サービスの起動
@@ -179,6 +205,11 @@ mdxuser@ubuntu-2004:~/ocs-vcp-portable$ sudo docker-compose up -d
 - VCコントローラのDockerコンテナに接続し、 `init.sh` スクリプトを実行します。
 
 ```
+sudo docker-compose exec occtr ./init.sh
+```
+
+```
+# 実行例
 mdxuser@ubuntu-2004:~/ocs-vcp-portable$ sudo docker-compose exec occtr ./init.sh
 rsyslogd: started
 occtr_consul: started
@@ -207,6 +238,11 @@ Unseal Nonce:
 - VCコントローラ内のすべてのサービスが正常に起動していることを確認します。
 
 ```
+sudo docker-compose exec occtr supervisorctl status
+```
+
+```
+# 実行例
 mdxuser@ubuntu-2004:~/ocs-vcp-portable$ sudo docker-compose exec occtr supervisorctl status
 cron                             RUNNING   pid 129, uptime 0:00:20
 grafana                          RUNNING   pid 94, uptime 0:00:22
@@ -228,14 +264,20 @@ vault                            RUNNING   pid 71, uptime 0:00:24
   セットアップスクリプトが正常に実行されていれば、以下のテキストファイルで確認できます。
 
 ```
-~/ocs-vcp-portable/tokenrc
+cat ~/ocs-vcp-portable/tokenrc
 ```
 
 - 追加で別のトークンを取得する必要がある場合、以下のコマンドを実行することで何度でも発行することができます。
   * SINET関連施設にコントローラがある通常利用ケースでは、VC コントローラ管理者が VCP マネージャの Web UI にアクセスしてトークンの取得・管理を行いますが、ポータブル版ではコントローラに対してコマンドラインで発行要求を行います。
 
 ```
+sudo docker-compose exec occtr ./create_token.sh
+```
+
+```
+# 実行例
 mdxuser@ubuntu-2004:~/ocs-vcp-portable$ sudo docker-compose exec occtr ./create_token.sh
+09e06cb3-74a3-1c15-175f-2ae4e27a1d16
 ```
 
 ### VCコントローラのログ参照
@@ -243,6 +285,6 @@ mdxuser@ubuntu-2004:~/ocs-vcp-portable$ sudo docker-compose exec occtr ./create_
 - VCコントローラに対する REST API リクエストや処理のログは、Docker コンテナ・ホスト (今回の環境では mdx仮想マシン) のファイルシステムにある以下のファイルに保存されます。
 
 ```
-~/ocs-vcp-portable/volumes/opt/occ/logs/application.log
+tail ~/ocs-vcp-portable/volumes/opt/occ/var/logs/application.log
 ```
 
