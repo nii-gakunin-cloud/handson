@@ -149,11 +149,6 @@ ocs-vcp-portable_occtr_1   /usr/bin/supervisord -n   Up
 ~/ocs-vcp-portable/cleanup-handson2209.sh
 ```
 
-- 上記スクリプトにより、以下の処理が行われます。
-  * `ocs-vcp-portable/volume/` ディレクトリを削除
-  * Jupyter Notebookコンテナ (cloudop-notebook-22.XX.X-jupyter-8888) を停止、削除
-  * git clone 後の初期状態に戻す (`git clean -df`)
-
 ### Jupyter Notebook へのアクセス
 
 - ブラウザから **`http://DNAT設定のグローバルIP/jupyter/`** にアクセスすると、VCPポータブル版と同じサーバで起動したJupyter Notebookにログインできます。
