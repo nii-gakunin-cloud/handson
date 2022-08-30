@@ -115,8 +115,7 @@ git clone -b handson2209 https://github.com/nii-gakunin-cloud/ocs-vcp-portable.g
   * 最後に `setup was completed.` と出力されることを確認してください。
 
 ```
-cd ocs-vcp-portable/mdx/
-./init_mdx_pvcc.sh
+cd ocs-vcp-portable && ./mdx/init_mdx_pvcc.sh
 ```
 
 - セットアップ・スクリプトにより以下のインストール、設定等が行われます。
