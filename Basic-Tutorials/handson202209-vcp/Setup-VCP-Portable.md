@@ -285,6 +285,6 @@ mdxuser@ubuntu-2004:~/ocs-vcp-portable$ sudo docker-compose exec occtr ./create_
 - VCコントローラに対する REST API リクエストや処理のログは、Docker コンテナ・ホスト (今回の環境では mdx仮想マシン) のファイルシステムにある以下のファイルに保存されます。
 
 ```
-tail ~/ocs-vcp-portable/volumes/opt/occ/var/logs/application.log
+tail ~/ocs-vcp-portable/volume/opt/occ/var/logs/application.log
 ```
 
