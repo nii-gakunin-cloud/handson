@@ -100,7 +100,7 @@ ssh mdxuser@{DNATのグローバルIPv4アドレス}
 
 ## 2. VCPポータブル版の実行
 
-### GitHubリポジトリから必要なファイル群を取得
+### GitHubリポジトリから必要なファイル一式を取得
 
 - mdx仮想マシンにSSHでログインし、<https://github.com/nii-gakunin-cloud/ocs-vcp-portable> を取得するために、以下のように `git clone` コマンドを実行します。
   * **注意:** ハンズオンでは mainブランチではなく、`handson2209` ブランチを指定してください。
