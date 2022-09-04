@@ -42,9 +42,9 @@
 - 「公開鍵」は、ターミナルでSSHを使用してLinux（ハンズオンではmdxの仮想マシン）にログイン可能なPC環境において、作成済みのSSH鍵ペアがあればその公開鍵の内容を貼り付けます。
   * SSH鍵ペアが無い場合は、例えば以下のように `ssh-keygen` コマンドで作成してください。
   
-  ```
-  ssh-keygen -t ed25519
-  ```
+    ```
+    ssh-keygen -t ed25519
+    ```
 
 <img src="./images/04-mdx-config.png" height="600px">
 
