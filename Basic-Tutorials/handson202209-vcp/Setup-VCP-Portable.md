@@ -11,6 +11,8 @@
 3. VCコントローラの管理
     - mdx仮想マシンにSSHでログインし、VCコントローラの管理コマンドを実行します。
 
+<img src="./images/setup-overview.png" height="300px">
+
 ## 1. mdxユーザポータルでの環境構築
 
 ### mdxローカル認証によるログイン
