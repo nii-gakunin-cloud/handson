@@ -30,8 +30,8 @@
 
 - サーバ追加画面の「シンプルモード」のチェックを外し、通常モードでサーバの仕様を設定します。
 
-![](./images/sakura-server1.png)
-![](./images/sakura-server2.png)
+<img src="./images/sakura-server1.png" width="700px">
+<img src="./images/sakura-server2.png" width="700px">
 
 #### サーバプラン
 
@@ -88,8 +88,8 @@
 
 ### (5) NICへのプライベートIPアドレスの付与
 
-- 追加したNICは、サーバのOSからは `eth1` として認識されています。
-- 以下のように Netplan を用いてプライベートIPアドレスを付与します。
+- 追加したNICは、サーバのOSからは `eth1` として認識されています。  
+  以下のように Netplan を用いてプライベートIPアドレスを付与します。
 
 ```
 cat << EOF | sudo tee /etc/netplan/90-config.yaml
