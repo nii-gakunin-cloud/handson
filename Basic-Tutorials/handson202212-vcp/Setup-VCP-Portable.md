@@ -98,7 +98,7 @@ ssh ubuntu@{サーバのグローバルIPアドレス}
 ### (6) NICへのプライベートIPアドレスの付与
 
 - 追加したNICは、サーバのOSからは `eth1` として認識されています。  
-  以下のように Netplan を用いてプライベートIPアドレスを付与します。
+  以下のコマンドを実行し、Netplan を用いてプライベートIPアドレスを付与します。
 
 ```
 cat << EOF | sudo tee /etc/netplan/90-config.yaml
