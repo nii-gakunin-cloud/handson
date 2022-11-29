@@ -32,6 +32,7 @@
 
 <img src="./images/sakura-server1.png" width="700px">
 <img src="./images/sakura-server2.png" width="700px">
+<img src="./images/sakura-server3.png" width="550px">
 
 #### サーバプラン
 
@@ -62,14 +63,18 @@
     ssh-keygen -t ed25519
     ```
 
+#### サーバの情報
+
+- 名前: ハンズオン参加者の「ユーザコード」が判別できる名前を必ず設定してください。
+
 ### (3) スイッチの作成
 
 - ローカルネットワーク用のスイッチを1個作成します。
-  * ルータ機能は **不要**
+  * ルータ: 「いいえ」 （ルータ機能は **不要**）
+  * 名前: ハンズオン参加者の「ユーザコード」が判別できる名前を必ず設定してください。
   * スイッチの作成 <https://manual.sakura.ad.jp/cloud/network/switch/router-switch.html>
 
 <img src="./images/sakura-sw.png" height="550px">
-
 
 ### (4) NICの追加、スイッチへの接続
 
@@ -151,7 +156,7 @@ ocs-vcp-portable_nginx_1   nginx -g daemon off;      Up
 ocs-vcp-portable_occtr_1   /usr/bin/supervisord -n   Up           
 ```
 
-- `docker ps` コマンドを実行すると、上記に加えてJupyterNotebookコンテナを含む合計3つのコンテナが起動していることが確認できます。
+- `sudo docker ps` コマンドを実行すると、上記に加えてJupyterNotebookコンテナを含む合計3つのコンテナが起動していることが確認できます。
 
 #### （参考）VCPポータブル版が正常に起動しなかった場合に再構築するには
 
