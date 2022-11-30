@@ -79,6 +79,7 @@
 ### (4) NICの追加、スイッチへの接続
 
 - 作成したサーバに、NICを1個追加し、ローカルネットワーク用スイッチに接続します。
+  * サーバは「**停止**」状態でなければNICの追加ができません。起動状態の場合は、電源操作 > シャットダウン を行ってください。
   * NICの追加 <https://manual.sakura.ad.jp/cloud/server/nic.html#id7>
   * NIC接続先の編集 <https://manual.sakura.ad.jp/cloud/server/nic.html#server-nic-edit>
 
