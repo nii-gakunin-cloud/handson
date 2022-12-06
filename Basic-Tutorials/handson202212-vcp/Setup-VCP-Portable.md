@@ -177,7 +177,34 @@ ocs-vcp-portable_occtr_1   /usr/bin/supervisord -n   Up
 
 さくらのクラウドで構築したVCPポータブル版の管理手順を確認します。
 
-### VC コントローラの停止方法
+
+### クラウド仮想ネットワーク定義ファイルの編集
+
+- さくらのクラウドで使用するローカルネットワーク情報を設定するためのファイルを記述します。
+  * `~/ocs-vcp-portable/config/vpn_catalog.yml`
+
+#### (1) ローカルネットワーク用スイッチの「リソースID」を確認
+
+- スイッチを選択して、「詳細」へ進む
+  ![](./images/sakura-sw-select.png)
+- 「リソースID」文字列をコピーしておく
+  ![](./images/sakura-sw-detail.png)
+
+#### (2) ファイル編集用コマンドを実行
+- 作成したサーバにSSHでログインし、以下のコマンドを実行します。
+  * 入力したスイッチの「リソースID」は `vpn_catalog.yml` ファイルに反映されます。
+
+```
+cat << EOF > replace_sw_id.sh
+echo -n "switch resource id: "
+read RESOURCE_ID
+sed -i.orig "s/000000000000/\$RESOURCE_ID/" ~/ocs-vcp-portable/config/vpn_catalog.yml
+EOF
+bash replace_sw_id.sh
+
+```
+
+### VC コントローラの停止
 
 - 稼働中のVCコントローラを停止する必要がある場合、 `docker-compose down` コマンドを実行します。
 
@@ -198,7 +225,7 @@ Name   Command   State   Ports
 ------------------------------
 ```
 
-### VC コントローラの起動方法
+### VC コントローラの起動
 
 - 停止中のVCコントローラを起動するには、 `docker-compose up -d` コマンドを実行します。
 
