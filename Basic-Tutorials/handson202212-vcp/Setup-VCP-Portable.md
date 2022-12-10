@@ -210,7 +210,9 @@ ocs-vcp-portable_occtr_1   /usr/bin/supervisord -n   Up
 ```
 # 実行例
 ubuntu@pvcc:~/ocs-vcp-portable$ ~/ocs-vcp-portable/sakuracloud/replace_switch_id.sh
-Switch ID: 123456789012
+Switch ID: 123456789012 ←リソースIDを入力
+
+# 設定内容が出力される
 cci_version: '1.0'
 sakura:
   default:
