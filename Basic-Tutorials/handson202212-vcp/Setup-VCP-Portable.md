@@ -190,8 +190,7 @@ ocs-vcp-portable_occtr_1   /usr/bin/supervisord -n   Up
 
 ### クラウド仮想ネットワーク定義ファイルの編集
 
-- さくらのクラウドで使用するローカルネットワーク情報を設定するためのファイルを記述します。
-  * `~/ocs-vcp-portable/config/vpn_catalog.yml`
+- さくらのクラウドで使用するローカルネットワーク情報を設定するためのファイル `config/vpn_catalog.yml` を記述します。
 
 #### (1) ローカルネットワーク用スイッチの「リソースID」を確認
 
@@ -205,13 +204,20 @@ ocs-vcp-portable_occtr_1   /usr/bin/supervisord -n   Up
   * 入力したスイッチの「リソースID」は `vpn_catalog.yml` ファイルに反映されます。
 
 ```
-cat << EOF > replace_sw_id.sh
-echo -n "switch resource id: "
-read RESOURCE_ID
-sed -i.orig "s/000000000000/\$RESOURCE_ID/" ~/ocs-vcp-portable/config/vpn_catalog.yml
-EOF
-bash replace_sw_id.sh
+~/ocs-vcp-portable/sakuracloud/replace_switch_id.sh
+```
 
+```
+# 実行例
+ubuntu@pvcc:~/ocs-vcp-portable$ ~/ocs-vcp-portable/sakuracloud/replace_switch_id.sh
+Switch ID: 123456789012
+cci_version: '1.0'
+sakura:
+  default:
+    sakura_local_switch_id: "123456789012"
+    sakura_zone: is1b
+    sakura_private_subnet_gateway_ip: 192.168.1.254
+    private_network_ipmask: 192.168.1.0/24
 ```
 
 ### VC コントローラの停止
