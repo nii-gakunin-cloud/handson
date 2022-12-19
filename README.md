@@ -11,7 +11,7 @@ Hands-on packages for the NII Gakunin Cloud On-demand Configuration Service
   - 学認クラウドオンデマンド構築サービスの概要 [資料](./pdf/Abst-2022.12.23-3.pdf)
   - ポータブル版VCP構築onさくらのクラウド（演習） [教材](./Basic-Tutorials/handson202212-vcp)
   - オンデマンド構築サービスを使った演習（演習） [教材](./Basic-Tutorials/handson202212-vcp)
-  - 公開テンプレート、お試し環境等の紹介 [資料](./pdf/Template-2022.12.23-4.pdf)
+  - 公開テンプレート、お試し環境等の紹介 [資料](./pdf/Template-2022.12.23-5.pdf)
 
 - 2022年9月7日(水) 学認クラウドオンデマンド構築サービスハンズオンセミナー
   - 学認クラウドオンデマンド構築サービスの概要 [資料](./pdf/Abst-2022.09.07-3.pdf)
