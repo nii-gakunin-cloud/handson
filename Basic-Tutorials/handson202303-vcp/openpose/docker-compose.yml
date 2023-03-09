@@ -1,0 +1,12 @@
+version: "2.4"
+services:
+  openpose:
+    image: {{registry}}/vcp/openpose
+    build: ./build
+    runtime: nvidia
+    tty: yes
+    container_name: openpose
+    volumes:
+    - ./data:/root/data/
+    - ./result:/root/result/
+    - ./result2:/root/result2/
