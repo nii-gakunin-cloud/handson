@@ -7,7 +7,7 @@ Hands-on packages for the NII Gakunin Cloud On-demand Configuration Service
 - 本サービス関連文献一覧 [Link](https://nii-gakunin-cloud.github.io/)
 
 ## 2023年度ハンズオン
-- 2022年6月9日(木) 学認クラウドオンデマンド構築サービスハンズオンセミナー
+- 2023年5月30日(火) 学認クラウドオンデマンド構築サービスハンズオンセミナー
   - 学認クラウドオンデマンド構築サービスの概要 [資料](./pdf/Abst-2023.5.30-r4.pdf) 
   - オンデマンド構築サービスの基礎、活用方法、及びアプリケーション構築演習（演習） [教材](./Basic-Tutorials/handson202305-vcp)
 
