@@ -37,8 +37,10 @@ VCP SDKを利用してmdx上にVCノードを起動し、VCPの基本的な使�
 
 最初にOpenHPC-v2テンプレートを用いてOpenHPC/Slurmクラスタを作成します。
 
-- [OpenHPC-v2/010-パラメータ設定](./OpenHPC-v2/010-パラメータ設定.ipynb)
-- [OpenHPC-v2/020-OpenHPCの起動](./OpenHPC-v2/020-OpenHPCの起動.ipynb)
+- [OpenHPC-v2/000-README](./OpenHPC-v2/000-README.ipynb)  
+  「作業用Notebookの作成」の手順に従い、以下のNotebookを実行します。
+  - 010: パラメータ設定
+  - 020: OpenHPCの起動
 
 #### 4-2. Open OnDemand構築
 
