@@ -1,6 +1,6 @@
 # /var/www/ood/apps/sys/hpl/form.yml
 ---
-cluster: "hpl_cluster"
+cluster: "OpenHPC_cluster"
 attributes:
   modules: "openblas"
   hpl_n_param:
