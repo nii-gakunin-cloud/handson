@@ -62,4 +62,4 @@ HPCクラスタとOpen OnDemandを活用し、HPCジョブとしてLinpackベン
 
 ## ハンズオン環境概略図
 
-<img src="./images/handson-mdx-network.png" height="700px">
+![](images/handson-mdx-network.png)
