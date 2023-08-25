@@ -2,6 +2,11 @@
 
 set -euo pipefail
 
+# for 2023.08 handson
+sudo sed -i '/DNS=/d' /etc/systemd/resolved.conf
+echo DNS=8.8.8.8 | sudo tee -a /etc/systemd/resolved.conf
+sudo systemctl restart systemd-resolved
+
 sudo systemctl stop apt-daily.timer
 sudo systemctl stop apt-daily.service
 sudo systemctl stop apt-daily-upgrade.timer
