@@ -9,6 +9,7 @@ Webポータル「Open OnDemand」を構築します。
 Open OnDemandとmdx上に構築したHPCクラスタを活用し、
 LinpackベンチマークとJupyterNotebookサーバをHPCジョブとして実行します。
 
+[mdxユーザポータルへのログイン](./mdx-login.md)
 
 ## 各実習ページへのリンク
 
