@@ -16,7 +16,7 @@ Hands-on packages for the NII Gakunin Cloud On-demand Configuration Service
   - テスト運用のご協力のお願い [教材](./pdf/3.テスト運用のご協力のお願い-20240828-r2.pdf)
 
 - 2024年9月11日(水) 学認クラウドオンデマンド構築サービスハンズオンセミナー
-  - T.B.D
+  - オンデマンド構築サービスを使用したOpenHPC + Open OnDemandの構築と活用 [教材](./Application-Tutorials/handson202409-openondemand)
 
 ## 2023年度ハンズオン
 - 2024年2月29日(木) 学認クラウドオンデマンド構築サービスハンズオンセミナー
