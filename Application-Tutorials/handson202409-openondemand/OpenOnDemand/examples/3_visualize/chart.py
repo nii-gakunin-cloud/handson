@@ -1,4 +1,5 @@
-# ジョブ結果を可視化する
+# ジョブ結果を可視化するスクリプト
+# Jupyter Notebook のセルにコピーして実行する
 
 import os
 import numpy as np
