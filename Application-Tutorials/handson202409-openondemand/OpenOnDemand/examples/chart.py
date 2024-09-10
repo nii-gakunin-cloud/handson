@@ -1,4 +1,4 @@
-# OOD の結果を
+# ジョブ結果を可視化する
 
 import os
 import numpy as np
