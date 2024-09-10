@@ -8,7 +8,7 @@ Hands-on packages for the NII Gakunin Cloud On-demand Configuration Service
 
 ## 2024年度ハンズオン
 - 2024年9月11日(水) 学認クラウドオンデマンド構築サービスハンズオンセミナー
-  - オンデマンド構築サービスとOpen OnDemandの概要 [教材](./pdf/OCSとOODの概要-r1.pdf)
+  - オンデマンド構築サービスとOpen OnDemandの概要 [教材](./pdf/OCSとOODの概要-r2.pdf)
   - オンデマンド構築サービスを使用したOpenHPC + Open OnDemandの構築と活用 [教材](./Application-Tutorials/handson202409-openondemand)
   - OCSテンプレート紹介と活用事例紹介 [教材](./pdf/OCSテンプレート紹介と活用事例紹介-r1.pdf)
 
