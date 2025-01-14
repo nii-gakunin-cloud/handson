@@ -8,7 +8,7 @@ Hands-on packages for the NII Gakunin Cloud On-demand Configuration Service
 
 ## 2024年度ハンズオン
 - 2025年1月15日(水) 学認クラウドオンデマンド構築サービスハンズオンセミナー
-  - オンデマンド構築サービスと講義・演習環境MCJ-CloudHubの概要 [教材](./pdf/OOCSとMCJ概要-r0.pdf)
+  - オンデマンド構築サービスと講義・演習環境MCJ-CloudHubの概要 [教材](./pdf/OCSとMCJ概要-r0.pdf)
 　- 講義・演習環境MCJ-CloudHub構築ハンズオン
 
 - 2024年9月11日(水) 学認クラウドオンデマンド構築サービスハンズオンセミナー
