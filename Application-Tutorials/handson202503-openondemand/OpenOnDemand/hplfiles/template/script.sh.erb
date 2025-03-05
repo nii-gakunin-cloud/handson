@@ -9,4 +9,4 @@ echo "TIMING - Starting HPL at: $(date)"
 # Launch HPL
 # Need to specify the network interface of the service network because
 # mdx VMs have a storage network in addition to the service network.
-mpiexec --mca btl_tcp_if_include ens5 /home/ooduser/xhpl
+mpiexec --mca btl_tcp_if_include ens64 /home/ooduser/xhpl
