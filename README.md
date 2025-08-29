@@ -8,7 +8,7 @@ Hands-on packages for the NII Gakunin Cloud On-demand Configuration Service
 
 ## 2025年度ハンズオン
 - 2025年9月2日(火) 学認クラウドオンデマンド構築サービスハンズオンセミナー
-　- MCJ-CloudHubの概要 [教材](./pdf/MCJ概要-20250808-r1.pdf)
+  - MCJ-CloudHubの概要 [教材](./pdf/MCJ概要-20250808-r1.pdf)
   - 講義・演習環境アプリケーション ハンズオン （演習）[auto 教材](./pdf/handson20250902_auto.pdf)
   - 講義・演習環境アプリケーション ハンズオン （演習）[Notebook1](./examples/MCJ-0902/01-auto.ipynb)
   - 講義・演習環境アプリケーション ハンズオン （演習）[mamual 教材](./pdf/handson20250902_manual.pdf)
