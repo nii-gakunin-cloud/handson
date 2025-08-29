@@ -12,7 +12,7 @@ Hands-on packages for the NII Gakunin Cloud On-demand Configuration Service
   - 講義・演習環境アプリケーション ハンズオン （演習）[auto 教材](./pdf/handson20250902_auto.pdf)
   - 講義・演習環境アプリケーション ハンズオン （演習）[Notebook1](./examples/MCJ-0902/01-auto.ipynb)
   - 講義・演習環境アプリケーション ハンズオン （演習）[mamual 教材](./pdf/handson20250902_manual.pdf)
-  - 講義・演習環境アプリケーション ハンズオン （演習）[Notebook2](./examples/MCJ-0423/01-manual.ipynb)
+  - 講義・演習環境アプリケーション ハンズオン （演習）[Notebook2](./examples/MCJ-0902/01-manual.ipynb)
   - オンデマンド構築サービスの仕組みと環境構築概要 [教材](./pdf/オンデマンド構築サービスの仕組みと環境構築概要--20250808-r0.pdf)
 
 - 2025年4月23日(水) 学認クラウドオンデマンド構築サービスハンズオンセミナー
