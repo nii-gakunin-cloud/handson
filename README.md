@@ -12,7 +12,8 @@ Hands-on packages for the NII Gakunin Cloud On-demand Configuration Service
 標  [プログラム](./pdf/vcp-ws_program_20260318.pdf)
   - Web 型プログラミング教育支援システム、及びOCSの概要 [講演資料](./pdf/web型プログラミング教育支援システム概要-20260302-r1.pdf)
   - CoursewareHubの概要説明・最新動向 [講演資料]
-  - MCJ-CloudHubの概要説明・最新動向 [講演資料]
+  - MCJ-CloudHubの概要説明・最新動向 [講演資料](./pdf/Web型プログラミング教育支援システム活用ワークショップ_saito.pdf)
+
   - Moodle–JupyterHub連携による大規模プログラミング演習基盤の運用知見と，JupyterLab拡張（Broccoli-Turtle）による初学者支援 [講演資料]
   - ミニ座談会資料 [講演資料]
 
