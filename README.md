@@ -14,7 +14,7 @@ Hands-on packages for the NII Gakunin Cloud On-demand Configuration Service
   - CoursewareHubの概要説明・最新動向 [講演資料]
   - MCJ-CloudHubの概要説明・最新動向 [講演資料](./pdf/Web型プログラミング教育支援システム活用ワークショップ_saito.pdf)
 
-  - Moodle–JupyterHub連携による大規模プログラミング演習基盤の運用知見と，JupyterLab拡張（Broccoli-Turtle）による初学者支援 [講演資料]
+  - Moodle–JupyterHub連携による大規模プログラミング演習基盤の運用知見と，JupyterLab拡張（Broccoli-Turtle）による初学者支援 [講演資料](./pdf/Moodle-JupyterHub_sympo2026_iseki.pdf)
   - ミニ座談会資料 [講演資料]
 
 - 2025年9月2日(火) 学認クラウドオンデマンド構築サービスハンズオンセミナー
