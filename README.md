@@ -7,6 +7,15 @@ Hands-on packages for the NII Gakunin Cloud On-demand Configuration Service
 - 本サービス関連文献一覧 [Link](https://nii-gakunin-cloud.github.io/)
 
 ## 2025年度ハンズオン＆ワークショップ
+- 2026年3月19日(木) Web 型プログラミング教育支援システム活用ワークショップ －MCJ-CloudHubとCoursewareHubによる実践事例と運用ノウハウ－
+  - 「Web 型プログラミング教育支援システム活用ワークショップ －MCJ-CloudHubとCoursewareHubによる実践事例と運用ノウハウ－」のご案内
+標  [プログラム] 
+  - Web 型プログラミング教育支援システム、及びOCSの概要 [講演資料]
+  - CoursewareHubの概要説明・最新動向 [講演資料]
+  - MCJ-CloudHubの概要説明・最新動向 [講演資料]
+  - Moodle–JupyterHub連携による大規模プログラミング演習基盤の運用知見と，JupyterLab拡張（Broccoli-Turtle）による初学者支援 [講演資料]
+  - ミニ座談会資料 [講演資料]
+
 - 2025年9月2日(火) 学認クラウドオンデマンド構築サービスハンズオンセミナー
   - MCJ-CloudHubの概要 [教材](./pdf/MCJ概要-20250808-r1.pdf)
   - 講義・演習環境アプリケーション ハンズオン （演習）[auto 教材](./pdf/handson20250902_auto.pdf)
