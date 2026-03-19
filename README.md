@@ -1,4 +1,4 @@
-# 学認クラウドオンデマンド構築サービス　ハンズオン
+# 学認クラウドオンデマンド構築サービス　ハンズオン＆ワークショップ
 Hands-on packages for the NII Gakunin Cloud On-demand Configuration Service
 
 ## 関連情報一覧
@@ -6,7 +6,7 @@ Hands-on packages for the NII Gakunin Cloud On-demand Configuration Service
 - 「学認クラウドオンデマンド構築サービス」 ホームページ [Link](https://cloud.gakunin.jp/ocs/)
 - 本サービス関連文献一覧 [Link](https://nii-gakunin-cloud.github.io/)
 
-## 2025年度ハンズオン
+## 2025年度ハンズオン＆ワークショップ
 - 2025年9月2日(火) 学認クラウドオンデマンド構築サービスハンズオンセミナー
   - MCJ-CloudHubの概要 [教材](./pdf/MCJ概要-20250808-r1.pdf)
   - 講義・演習環境アプリケーション ハンズオン （演習）[auto 教材](./pdf/handson20250902_auto.pdf)
