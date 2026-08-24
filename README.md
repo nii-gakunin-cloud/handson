@@ -6,10 +6,13 @@ Hands-on packages for the NII Gakunin Cloud On-demand Configuration Service
 - 「学認クラウドオンデマンド構築サービス」 ホームページ [Link](https://cloud.gakunin.jp/ocs/)
 - 本サービス関連文献一覧 [Link](https://nii-gakunin-cloud.github.io/)
 
+## 2026年度ワークショップ
+
+
 ## 2025年度ハンズオン＆ワークショップ
 - 2026年3月19日(木) Web 型プログラミング教育支援システム活用ワークショップ －MCJ-CloudHubとCoursewareHubによる実践事例と運用ノウハウ－
   - 「Web 型プログラミング教育支援システム活用ワークショップ －MCJ-CloudHubとCoursewareHubによる実践事例と運用ノウハウ－」のご案内
-標  [プログラム](./pdf/vcp-ws_program_20260318.pdf)
+  [プログラム](./pdf/vcp-ws_program_20260318.pdf)
   - Web 型プログラミング教育支援システム、及びOCSの概要 [講演資料](./pdf/web型プログラミング教育支援システム概要-20260302-r1.pdf)
   - CoursewareHubの概要説明・最新動向 [講演資料](./pdf/hiroshima_CLE47_hamamoto.pdf)
   - MCJ-CloudHubの概要説明・最新動向 [講演資料](./pdf/Web型プログラミング教育支援システム活用ワークショップ_saito.pdf)
