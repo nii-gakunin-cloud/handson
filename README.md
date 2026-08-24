@@ -8,7 +8,7 @@ Hands-on packages for the NII Gakunin Cloud On-demand Configuration Service
 
 ## 2026年度ワークショップ
 - 2026年9月2日(水) Web 型プログラミング教育支援システム活用ワークショップ（構築・運用と AI 活用編）
-  - [プログラム](./pdf/VCP_workshop_20260902.pdf)
+  - [プログラム](./pdf/VCP_workshop_20260902r.pdf)
 
 
 ## 2025年度ハンズオン＆ワークショップ
