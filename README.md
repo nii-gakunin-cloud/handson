@@ -11,8 +11,9 @@ Hands-on packages for the NII Gakunin Cloud On-demand Configuration Service
   - [プログラム](./pdf/VCP_workshop_20260902r.pdf)
   - Web 型プログラミング教育支援システム、及びOCSの概要 [講演資料](./pdf/web型プログラミング教育支援システム概要-20260902-r0.pdf)
   - 帯広畜産大学データサイエンス演習における取り組み
-  - 山口大学のMCJ-CloudHub 構築事例及び大学初年次教育への活用事例
+  - 山口大学のMCJ-CloudHub 構築事例及び大学初年次教育への活用事例　[講演資料](./pdf/cloudweek2026_yamaguchi_v1_1.pdf)
   - ミニ座談会用資料
+  - チュートリアル用資料
 
 ## 2025年度ハンズオン＆ワークショップ
 - 2026年3月19日(木) Web 型プログラミング教育支援システム活用ワークショップ －MCJ-CloudHubとCoursewareHubによる実践事例と運用ノウハウ－
