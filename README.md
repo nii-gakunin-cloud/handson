@@ -13,7 +13,7 @@ Hands-on packages for the NII Gakunin Cloud On-demand Configuration Service
   - 帯広畜産大学データサイエンス演習における取り組み　[講演資料](./pdf/260902hucw.pdf)
   - 山口大学のMCJ-CloudHub 構築事例及び大学初年次教育への活用事例　[講演資料](./pdf/cloudweek2026_yamaguchi_v1_1.pdf)
   - ミニ座談会用資料　[講演資料](./pdf/ミニ座談会での質問事項-北大クラウドウイークWS-r0.pdf)
-  - チュートリアル用資料
+  - チュートリアル用資料　[講演資料](./pdf/cloudweek2026_tutorial.pdf)
 
 ## 2025年度ハンズオン＆ワークショップ
 - 2026年3月19日(木) Web 型プログラミング教育支援システム活用ワークショップ －MCJ-CloudHubとCoursewareHubによる実践事例と運用ノウハウ－
